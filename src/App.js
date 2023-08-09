@@ -23,7 +23,12 @@ const searchLocation =(event) =>{
 }
 
   return (
+    <>
+    
     <div className="app">
+    <div className="head">
+      <h2>Weather Check</h2>
+    </div>
       <div className="search">
         <input 
         value={location}
@@ -64,7 +69,7 @@ const searchLocation =(event) =>{
             </div>
             }
         </div>
-    </div>
+    </div> </>
   );
 }
 
